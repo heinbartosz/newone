@@ -26,6 +26,8 @@ class WhenSearchingByKeyword {
 
         Serenity.reportThat("The keyword should appear in the sidebar heading",
                 () -> assertThat(searchResultSidebar.heading()).isEqualTo("Cucumber")
+
+                //
         );
     }
 }
